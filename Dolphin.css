@@ -1,0 +1,113 @@
+.delfin {
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 50%;
+    width: 500px;
+    height: 500px;
+  }
+
+  
+.aleta-superior {
+  top: -40%;
+  right: 15%;
+  background: lightblue;
+  width: 30%;
+  height: 60%;
+  border: 10px solid black;
+  border-radius: 30% 30% 5% 120% ;
+  transform: rotate(-190deg);
+  z-index: -1;
+}
+.delfin-inferior {
+      width: 400px;
+      height: 200px;
+      left: 40%;
+      background: lightblue;
+      border: 10px solid black;
+      border-radius: 100% 50px 50px 100% / 50% 70px 70px 50%;
+      transform: rotate(-30deg);
+    
+}
+.ojo-izquierdo {
+  top: -5%;
+  right: -8%;
+  background: black;
+  width: 8%;
+  height: 8%;
+  border-radius: 50%;
+}
+.reflejo-ojos {
+  top: 25%;
+  left: 15%;
+  background: white;
+  width: 35%;
+  height: 35%;
+  border-radius: 50%;
+}
+.boca{
+
+  top: 200%;
+  right: -150%;
+  background: black;
+  width: 400%;
+  height: 40%;
+  border-radius: 50%;
+   transform: rotate(-30deg);
+
+}
+.aletita{
+
+  top: 500%;
+  right: -150%;
+  background: lightblue;
+  width: 600%;
+  height: 60%;
+  border: 10px solid black;
+  border-radius: 50%;
+   transform: rotate(-30deg);
+
+}
+
+.aleta-inferior {
+  top: 30%;
+  left: 13%;
+  background: lightblue;
+  width: 20%;
+  height: 50%;
+  border: 10px solid black;
+  border-radius: 30% 30% 5% 120% ;
+  transform: rotate(60deg);
+  z-index: -1;
+}
+.fase-final-cola {
+  top: 65%;
+  right: 75%;
+     width: 150; 
+     height: 160; 
+     border-left: 150px solid lightblue;
+     border-top: 100px solid transparent;
+     border-bottom: 50px solid blue;
+       transform: rotate(70deg); 
+}
+
+.triangulo {
+  top: 50%;
+  right: 80%;
+     width: 150; 
+     height: 160; 
+     border-left: 150px solid lightblue;
+     border-top: 100px solid transparent;
+     border-bottom: 50px solid blue;
+       transform: rotate(130deg); 
+}
+
+    
+
+body {
+  background:"https://fondosmil.com/fondo/36667.jpg";
+}
+
+.delfin * {
+  position: absolute;
+}
